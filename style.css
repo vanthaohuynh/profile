@@ -1,0 +1,88 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;700&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: aliceblue;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+h1 {
+  color: cornflowerblue;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  color:gray;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 100px;
+}
+
+.img-circle {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: dodgerblue;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 24px;
+  text-decoration: none;
+}
+.btn-blue:hover {
+  background-color:lightcoral;
+  color: chartreuse;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+  border-radius: 4px;
+  padding: 36px;
+  margin: 24px auto;
+  width: 700px;
+  text-align: center;
+}
+
+.list-inline {
+    list-style:none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.list-inline a {
+    font-size: 30px;
+}
